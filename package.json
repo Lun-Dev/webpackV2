@@ -4,30 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress --mode=production",
-    "watch": "webpack --progress --watch",
-    "server": "webpack-dev-server --open"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lun-Dev/webpackV2.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lun-Dev/webpackV2/issues"
   },
   "homepage": "https://github.com/Lun-Dev/webpackV2#readme",
-  "dependencies": {
-    "moment": "^2.29.1"
-  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.3",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
